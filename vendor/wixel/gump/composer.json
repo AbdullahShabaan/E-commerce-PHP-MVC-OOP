@@ -1,0 +1,34 @@
+{
+    "name": "wixel/gump",
+    "description": "A fast, extensible & stand-alone PHP input validation class that allows you to validate any data.",
+    "keywords": ["validation", "validator", "validate"],
+    "authors": [
+        {
+            "name": "Sean Nieuwoudt",
+            "homepage": "https://wixelhq.com"
+        },
+        {
+            "name": "Filis Futsarov",
+            "homepage": "https://filis.me"
+        }
+    ],
+    "autoload": {
+        "files": ["gump.class.php"],
+        "psr-4": { "GUMP\\": "src/" }
+    },
+    "license": "MIT",
+    "homepage": "https://wixelhq.com/",
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "mockery/mockery": "^1.3",
+        "php-coveralls/php-coveralls": "^2.2",
+        "kamermans/docblock-reflection": "^1.0",
+        "maddhatter/markdown-table": "^1.0"
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    },
+    "scripts": {
+        "test": "php ./vendor/bin/phpunit"
+    }
+}

@@ -1,0 +1,18 @@
+{
+	 "name": "abdullah/micromvc",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": ">=8.2",
+        "another-vendor/package": "1.*"
+    },
+
+	"autoload": {
+		"psr-4": {
+		  "phpmvc\\":"app"	
+		}
+	},
+	"require": {
+		"rakit/validation": "^0.22.3",
+		"wixel/gump": "^1.6"
+	}
+}

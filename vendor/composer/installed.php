@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'rakit/validation' => array(
+            'pretty_version' => 'v0.22.3',
+            'version' => '0.22.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rakit/validation',
+            'aliases' => array(),
+            'reference' => '61ed77b772c214faa67aaf1c4adf81502b06cd4b',
+            'dev_requirement' => false,
+        ),
+        'wixel/gump' => array(
+            'pretty_version' => 'v1.6.1',
+            'version' => '1.6.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wixel/gump',
+            'aliases' => array(),
+            'reference' => '422a76b4b4dd9dc925c596c5f55597d4a9738d61',
+            'dev_requirement' => false,
+        ),
+    ),
+);

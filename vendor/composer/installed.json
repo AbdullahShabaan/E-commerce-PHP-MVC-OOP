@@ -1,0 +1,113 @@
+{
+    "packages": [
+        {
+            "name": "rakit/validation",
+            "version": "v0.22.3",
+            "version_normalized": "0.22.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rakit/validation.git",
+                "reference": "61ed77b772c214faa67aaf1c4adf81502b06cd4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rakit/validation/zipball/61ed77b772c214faa67aaf1c4adf81502b06cd4b",
+                "reference": "61ed77b772c214faa67aaf1c4adf81502b06cd4b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "time": "2018-11-10T03:57:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Rakit\\Validation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Syifa",
+                    "email": "emsifa@gmail.com"
+                }
+            ],
+            "description": "PHP Laravel like standalone validation library",
+            "support": {
+                "issues": "https://github.com/rakit/validation/issues",
+                "source": "https://github.com/rakit/validation/tree/master"
+            },
+            "install-path": "../rakit/validation"
+        },
+        {
+            "name": "wixel/gump",
+            "version": "v1.6.1",
+            "version_normalized": "1.6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Wixel/GUMP.git",
+                "reference": "422a76b4b4dd9dc925c596c5f55597d4a9738d61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Wixel/GUMP/zipball/422a76b4b4dd9dc925c596c5f55597d4a9738d61",
+                "reference": "422a76b4b4dd9dc925c596c5f55597d4a9738d61",
+                "shasum": ""
+            },
+            "require-dev": {
+                "kamermans/docblock-reflection": "^1.0",
+                "maddhatter/markdown-table": "^1.0",
+                "mockery/mockery": "^1.3",
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^8"
+            },
+            "time": "2020-02-28T17:56:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "gump.class.php"
+                ],
+                "psr-4": {
+                    "GUMP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Nieuwoudt",
+                    "homepage": "https://wixelhq.com"
+                },
+                {
+                    "name": "Filis Futsarov",
+                    "homepage": "https://filis.me"
+                }
+            ],
+            "description": "A fast, extensible & stand-alone PHP input validation class that allows you to validate any data.",
+            "homepage": "https://wixelhq.com/",
+            "keywords": [
+                "validate",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/Wixel/GUMP/issues",
+                "source": "https://github.com/Wixel/GUMP/tree/v1.6.1"
+            },
+            "install-path": "../wixel/gump"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
